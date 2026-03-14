@@ -1,0 +1,14 @@
+Cloud service types determine what service you get from the cloud service provider and what you in control of.
+It will make sense when i explain the cloud service types. 
+
+Infrastructure as a service
+Infrastructure as a service is renting network infrasturcture from the cloud service provider. You manage virtual machines,
+Operating systems, it is basically a whole local network accessed over the internet. The cloud service provider manages 
+the physical hardware and datacentre security as part of the shared responsibility model.
+
+Platform as a service.
+Platform as a service offers the benefits of deploying code, applications and containers without having to manage the underlying infrastructure
+such as the operating system, virtual machines or network access. You deploy applications and manage how users have access to it.
+
+Software as a service
+Software as a service you just manage access, no code deployment or underlying infrastructure management. 
