@@ -1,0 +1,23 @@
+In this exercise, I used the Azure portal to create a resource. The focus of the exercise is observing how Azure resource groups populate 
+with created resources.
+
+Task
+
+1. Selected Create a resource > Compute > Virtual Machine > Create.
+2. Verify or enter the following values for each setting. If a setting isn't specified, leave the default value.
+
+Basics tab
+
+Setting	Value
+Subscription	AZ-900T00-A CSR 1
+Resource group	myRGKV-lod59988255
+Virtual machine name	my-VM-59988255
+Image	Ubuntu Server 20.04 LTS - Gen2
+Size	Click See all sizes, click B-Series, select B1ls, click Select at the bottom of the screen
+Authentication type	Password
+Username	azureuser
+Password	Enter a custom password such as G*5e!pM0Djm0G*5e!pM0Djm0
+Confirm password	Reenter the custom password
+Public inbound ports	None
+
+3. Review and create, It will take you to a billing tab where you will review your resource details and billing.
