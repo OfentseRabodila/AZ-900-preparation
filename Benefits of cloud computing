@@ -1,0 +1,22 @@
+Cloud computing has some general knowledge benefits such as High Availability and scalability. Lets get into detail on the benefits of cloud computing.
+
+High Availability.
+When deploying resources in the cloud, it is important that those resources are available when needed. 
+High availability defines how available those resources are regardless of disruptions, natural disasters or hardware failures. 
+It is often included in the service level agreement as the agreed upon policy to define how long the downtime will be per year.
+
+Scalability.
+Scalability is the ability to increase or decrease resources to meet demand. If you have a physical datacenter at traffic spikes, 
+you cannot rapidly add more compute, storage or network resources because they have to be purchased. With cloud computing it is easier
+to scale up or down and is often less costly because you pay for whta you consume. 
+
+Vertical scaling
+With vertical scaling, if you were developing an app and you needed more processing power, you could vertically 
+scale up to add more CPUs or RAM to the virtual machine. Conversely, if you realized you had over-specified the needs, 
+you could vertically scale down by lowering the CPU or RAM specifications.
+
+Horizontal scaling
+With horizontal scaling, if you suddenly experienced a steep jump in demand, your deployed resources could be scaled out 
+(either automatically or manually). For example, you could add additional virtual machines or containers, scaling out. 
+In the same manner, if there was a significant drop in demand, deployed resources could be scaled in (either automatically or manually), 
+scaling in.
