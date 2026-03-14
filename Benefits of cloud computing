@@ -20,3 +20,18 @@ With horizontal scaling, if you suddenly experienced a steep jump in demand, you
 (either automatically or manually). For example, you could add additional virtual machines or containers, scaling out. 
 In the same manner, if there was a significant drop in demand, deployed resources could be scaled in (either automatically or manually), 
 scaling in.
+
+Reliability and predictability are also two important benefits that help you deploy resources with confidence.
+
+Reliabiality
+Reliablity is the ability of a system to recover from failures and be available to users readily. 
+With availability zones, regions and region pairs that offer fault tolerance between physical hardware failuers and disasters, 
+Your resources are highly available which makes cloud computing more reliable than on premises deployment.
+
+Predictability
+Predictability can be cost based or performance based. You can predict how much you will spend on resources that you utilize in the cloud instead 
+of overestimating or underestimating hardware costs. Performance predictability means you can see exactly how much storage, compute or networking
+resources you will need to have a good experience in your workflows.
+
+Security and governance in the cloud.
+Governance in the cloud help make sure your resources meet regulatory standards and are flagged if they do not. 
