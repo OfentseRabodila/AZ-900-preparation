@@ -1,0 +1,16 @@
+This module is an introduction to cloud computing and how it benefits people from general everyday users to large corporate environments.
+
+https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification.
+
+ It covers things such as cloud concepts, deployment models, and understanding shared responsibility in the cloud.
+
+Definition of cloud computing.
+From the microsoft learn portal, cloud computing is defined as network, compute and storage resources delivered over the internet.
+
+Cloud computing changes the costs from Capex(Buying physical hardware) to OPex(Renting physical hardware or storage from the cloud service provider).
+
+This means tenants only pay for the resources that they consume whuch cuts down costs. 
+
+With this simple defenition of cloud computing comes responsibilities between the cloud service provider and the customer. 
+
+We will cover this in depth in the cloud deployment and cloud service models.
