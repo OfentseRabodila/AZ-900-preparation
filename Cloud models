@@ -1,0 +1,14 @@
+Cloud models are the Foundation of accessibility of cloud resources. 
+
+Public cloud
+Public cloud is accessible to all users. It is owned by a third party cloud provider that offers cloud services to customers at a cost.
+In this model users pay for what they consume in a pay-as-you-go model.
+
+Private cloud
+Private cloud is owned by a single entity and is only accessible to users from that single entity. It is used for compliance and regulatory measures.
+In this model users pay for the security, infrastructure and maintainance. Which costs more than paying for what you consume.
+This offers the most control over the underlying hardware. 
+
+Hybrid cloud.
+Hybrid cloud is a combination fo both private and public cloud. Commonly used for cloud bursting.
+In this case, the private cloud could be used for sensitive data, while public cloud is used for Analytics. 
