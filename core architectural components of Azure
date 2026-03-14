@@ -1,0 +1,29 @@
+This module is an introduction to the core architectural components of Azure. It teaches about the physical organization of 
+Azure: datacenters, availability zones, and regions; it also teaches about the organizational structure of Azure: resources and resource 
+groups, subscriptions, and management groups.
+
+The module begins with the definition of Microsoft Azure. 
+Azure is a cloud service provider that provides ever expanding cloud services that meet your current and future business needs.
+
+To create and use azure services, you need a subscription. A subscription is automatically created when you created an azure account,
+which is needed to access a subscription. You can create multiple subscriptions for different organizational departments such as
+HR subscription, I.T subscription, etc.
+After creating a subscription, you can create resources and group them within resource groups. 
+
+You can navigate azure through the web portal, or the cloudshell which is command line interface based via bash or powershell.
+
+Azure physical infrastructure is the physical data centres where azure services are deployed. Datacenters are grouped into azure regions 
+and availability zones to provide resiliency and reliability for customers. 
+
+Regions are a group of availability zones connected with fast high speed fibre connections for low latency.
+Availability zones are datacentres within a region.
+Region pairs are two regions 300miles or more apart from each other paired with high speed fibre cables. 
+Sovereign regions are datacentres that are isolated from the general public for compliance and regulatory requirements. 
+
+Management of resources in azure.
+The hierachichal management of resources will help understand inheritance and who has the most contol over resources in an organisation.
+A azure account holder has the most control over subscriptions and resources. 
+
+Management groups help govern subscriptions and apply policies to them. Subscriptions are then used for billing and resource management
+purposes. 
+Resource groups help group resources. Everything in this order inherits from the parent manager. 
