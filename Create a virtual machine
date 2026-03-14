@@ -7,15 +7,20 @@ Deploy a basic virtual machine in Azure and understand how compute resources are
 
 What I learned:
 - How to create a resource group
-- How to configure a virtual machine
+- How to configure a virtual machine via cli
 - Understanding regions and availability
 
+Task: Create a Linux virtual machine and install Nginx
 Steps I performed:
 1. Logged into Azure Portal
 2. Created a new resource group
-3. Selected Virtual Machine service
-4. Configured OS, size, and region
+3. Created storage account and chose a region where the vm will be deployed.
+4. Prepared a cloud shell to deploy the virtual machine.
+5. Created a vm via cli
+6. Ran a command to configure nginx on the virtual machine
 5. Deployed and monitored the VM
 
 Key takeaway:
-Virtual machines are part of the IaaS model and allow full control over the operating system and infrastructure.
+Virtual machines are part of the IaaS model and allow full control over the operating system and infrastructure, they can also be deployed via cli.
+
+
