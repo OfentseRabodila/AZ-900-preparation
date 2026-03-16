@@ -1,0 +1,25 @@
+This module contains azure compute and networking services. It serves as an outline on the services you can get from azure.
+
+Azure virtual machines.
+As we shoul already know, a virtual machine is a virtual occurance of a physical computer. You can configure
+an operating system, run tasks, configure network access, access files, browse the web, etc.
+Virtual machines are provided as an Iaas. 
+You can run custom software, use custom configurations and gives access to the whole OS.
+It being an Iaas deployed service, you need to manage updates on the v.m yourself.
+You can deploy VMs in minutes using images. 
+An image is a template of a virtul machine that can be loaded when needed instead of recreating a new vm to run
+software that is already available as an image.
+
+Scale in VMs
+You can run single vms for minor tasks such as testing and development, or you can run multiple vms to provide
+redundancy, high availability and scalability. You can manage multiple vms using scale sets and availability sets.
+
+Scale sets
+Scale sets allow you to manage a group of identical load balanced vms as a single unit. When deploying a scale set, azure automatically
+deploys a load balancer. They can be configured to increase or decrase based on demand. 
+
+Availability sets
+Availability sets are deployed for fault tolerance and updates. They are divided into falut domains and update domains.
+Fault domains prevent an outage of the entire scale set by segmenting the virtual machines.
+Update domains are used for rolling udates, instaed of updating whole vms at once, they update in intervals to preserve haigh availability.
+
