@@ -1,0 +1,13 @@
+Azure Containers
+Containers allow you to run applications without needing to deploy whole vms to reduce costs and management workloads.
+They are more agile and are created to be created, configured and deleted more rapidly than vms. They are deployed as a Paas
+
+Container types
+Azure container instances - One off container instances that are used for test environments. 
+Azure container apps - Serverless instances that are event-driven. 
+Azure Kubernetes services - Fleet management of containers, similar to virtual machine scale sets. (Enterprise level is a key-word)
+
+Azure functions
+Event driven serverless compute option that does not allow for conatiners or vms to run. 
+Used for customers who are concerned about the code running and not the underlying ifrastructure. 
+Functions scale automatically based on demand. 
