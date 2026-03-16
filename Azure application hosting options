@@ -1,0 +1,6 @@
+Azure App service
+Azure app service allows you to host web apps, background jbs, mobile backends, api's in the language of your choice
+without worrying about the underlying infrastructre. 
+It allows you to focus on building and maintaining your apps while azure maintains the infrastructure.
+It is an http-basd service.
+
