@@ -1,0 +1,8 @@
+Virtual desktop
+Another type of virtual machine is Virtual desktop.
+It allows you to use a version of an operating system such as windows on the cloud. It is accessible from anywhere.
+It is secur in terms of users need to access the desktop using their microsoft entra accounts. Administrators can configure
+granular role based access control and multi-factor authentication to further increase security and access control. 
+It reduces the risk of confidential data being left on a physical device. 
+
+
