@@ -1,0 +1,2 @@
+Azure virtual networks can be seen as an extension of an on-premises network. Resources can communicate with each other,
+the internet or the on-premise network based on predefined rules. 
