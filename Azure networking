@@ -1,0 +1,38 @@
+Azure Virtual Networking.
+
+Azure Virtual Network (VNet) allows Azure resources to communicate securely with each other, the internet, and on-premises networks.
+
+Key Concepts:
+
+Virtual Network (VNet)
+A private network in Azure (like your own data center network)
+
+Subnets
+Divide a VNet into smaller sections for organization and security
+
+IP Addressing
+Each resource gets a private IP inside the VNet
+
+Connectivity Options:
+                          Internet
+                          Resources can communicate with external networks
+
+                          VPN Gateway
+                          Secure connection between Azure and on-premises networks over the internet
+
+                          ExpressRoute
+                          Private, high-speed connection to Azure (not over the internet)
+
+                          VNet Peering
+                          Connect two VNets directly
+Security Features:
+                  Network Security Groups (NSGs)
+                  Control inbound and outbound traffic (like a firewall)
+
+                  Azure Firewall
+                  Managed, centralized network security service
+
+Use Cases:
+          Isolate and secure applications
+          Connect cloud and on-prem environments
+          Control traffic between resources
