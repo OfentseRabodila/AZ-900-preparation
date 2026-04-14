@@ -1,0 +1,37 @@
+Application Hosting Options in Azure
+
+Azure provides different ways to host applications depending on control, scalability, and complexity.
+
+1. Virtual Machines (VMs)
+Full control over OS and environment
+You manage updates, scaling, and maintenance
+
+Use when you need maximum control
+
+2. App Service
+Platform for hosting web apps, APIs, and mobile backends
+No infrastructure management
+Built-in scaling and security
+
+Best for web applications and REST APIs
+
+3. Azure Functions
+Serverless, event-driven code
+Runs only when triggered
+Automatically scales
+
+Ideal for small tasks and automation
+
+4. Containers (Azure Kubernetes Service / Container Instances)
+Run apps in containers
+Consistent environments across dev and production
+Options:
+AKS (Kubernetes) → full orchestration
+Container Instances → simple container execution
+
+Use for microservices and modern apps
+
+5. Azure Spring Apps
+Fully managed service for Spring Boot applications
+
+👉 Best for Java developers using Spring
