@@ -1,0 +1,29 @@
+Azure DNS
+
+Azure DNS is a service that lets you host and manage your domain names using Azure.
+
+Key Points:
+            Translates domain names → IP addresses
+            Uses Azure’s global infrastructure for high availability
+            Faster and more reliable name resolution
+
+How It Works:
+              You create a DNS zone (e.g. myapp.com)
+              Add DNS records (like A, CNAME, MX)
+              Azure answers DNS queries for your domain
+
+Common Record Types:
+                    A record → maps a name to an IP address
+                    CNAME → maps one domain to another
+                    MX → email servers
+                    TXT → verification and metadata
+
+Benefits:
+          High performance using Azure network
+          Easy to manage via Azure portal
+          Integrates with other Azure services
+
+Use Cases:
+          Host public domain names
+          Route users to your applications
+          Manage DNS for cloud apps
