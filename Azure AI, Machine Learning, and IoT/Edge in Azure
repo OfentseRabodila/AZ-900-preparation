@@ -1,0 +1,38 @@
+AI, Machine Learning, and IoT/Edge in Azure
+
+1. Artificial Intelligence (AI)
+
+AI in Azure allows apps to perform tasks that normally require human intelligence (like vision, speech, decision-making).
+
+Use prebuilt services — no deep coding needed
+Examples:
+          Vision (image recognition)
+          Speech (speech-to-text)
+          Language (text analysis, chatbots)
+Good for adding “smart” features quickly
+
+2. Machine Learning (ML)
+
+Machine Learning is a subset of AI where systems learn from data and improve over time.
+
+Build, train, and deploy models
+Works with large datasets
+Requires more control than basic AI services
+Main service:
+              Azure Machine Learning
+Used for predictions (e.g. sales forecasting, fraud detection)
+
+3. IoT / Edge
+
+IoT (Internet of Things) connects physical devices to the cloud.
+
+Devices send and receive data (e.g. sensors, machines)
+Azure collects, monitors, and analyzes this data
+
+Edge computing processes data closer to the device instead of the cloud
+
+Faster response
+Works even with limited internet
+Key services:
+              IoT Hub (device management)
+              IoT Edge (run workloads on devices)
