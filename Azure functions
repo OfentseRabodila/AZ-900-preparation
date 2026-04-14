@@ -1,0 +1,23 @@
+Azure Functions
+
+Azure Functions is a serverless compute service in Microsoft Azure that lets you run code without managing servers.
+
+Key Points:
+You only write the code — Azure handles the infrastructure
+Runs code on-demand (trigger-based)
+Automatically scales up or down
+You pay only for execution time, not idle time
+Common Triggers:
+HTTP requests (APIs)
+Timers (scheduled jobs)
+Blob storage changes
+Queue messages
+Event Hub / Service Bus events
+Use Cases:
+Build lightweight APIs
+Automate tasks (e.g. scheduled cleanups)
+Process files or data streams
+Integrate different services
+Simple Example:
+
+A function runs whenever a file is uploaded to storage and processes that file.
