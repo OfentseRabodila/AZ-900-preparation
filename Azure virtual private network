@@ -1,0 +1,31 @@
+Azure Virtual Private Networks (VPN) (Summary)
+
+An Azure VPN allows you to securely connect your on-premises network or devices to Azure over the internet.
+
+Key Points:
+            Uses encryption to protect data
+            Connects Azure VNets to external networks
+            Works over the public internet
+            Types of VPN Connections:
+
+Site-to-Site (S2S)
+Connects an entire on-premises network to Azure
+Always on
+Used by organizations connecting their data center to Azure
+
+Point-to-Site (P2S)
+Connects a single device (e.g. laptop) to Azure
+On-demand connection
+Used by remote users
+
+VNet-to-VNet
+Connects two Azure VNets together securely
+Used for communication between Azure networks
+
+Required Component:
+                    VPN Gateway
+                    A service in Azure that enables VPN connectivity
+When to Use VPN:
+                Secure communication over the internet
+                Lower cost than private connections
+                Quick to set up
