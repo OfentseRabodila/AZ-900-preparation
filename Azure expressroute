@@ -1,0 +1,23 @@
+Azure ExpressRoute
+
+Azure ExpressRoute is a service that provides a private, dedicated connection between your on-premises network and Azure.
+
+Key Points:
+            Does not use the public internet
+            More secure, reliable, and faster than VPN
+            Offers low latency and high performance
+Features:
+          Private connection through a connectivity provider
+          Supports large data transfers
+          Consistent network performance
+Connectivity Types:
+                    On-premises to Azure (data center connection)
+                    Branch offices to Azure
+                    Can also connect to Microsoft services like Microsoft 365
+When to Use:
+            Need high security and privacy
+            Large-scale or mission-critical workloads
+            Require stable and predictable performance
+            Comparison with VPN:
+            ExpressRoute = private, dedicated connection
+            VPN = encrypted over public internet
